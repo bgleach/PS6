@@ -98,7 +98,7 @@ public class Person_Test {
 
 	@Test
 	public void getPerson() {
-		assertEquals(PersonDAL.getPerson(person1.getPersonID()).getPersonID(), person1.getPersonID());
+		assertEquals(PersonDAL.getPerson(person1.getPersonID()), person1.getPersonID());
 }
 	
 	
